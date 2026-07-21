@@ -7,3 +7,4 @@ ipykernel==7.3.0
 nbformat==5.10.4
 nbclient==0.11.0
 anthropic==0.117.0
+scikit-learn==1.9.0

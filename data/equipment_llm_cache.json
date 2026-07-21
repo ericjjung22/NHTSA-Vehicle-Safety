@@ -1,0 +1,1542 @@
+{
+  "ABS||*Optional": {
+    "confidence": "high",
+    "feature": "ABS",
+    "level": 1,
+    "source": "llm",
+    "value": "*Optional"
+  },
+  "ABS||A": {
+    "confidence": "medium",
+    "feature": "ABS",
+    "level": 1,
+    "source": "llm",
+    "value": "A"
+  },
+  "ABS||ADVANCE, ADVANCE-E: CMBS": {
+    "confidence": "low",
+    "feature": "ABS",
+    "level": 1,
+    "source": "llm",
+    "value": "ADVANCE, ADVANCE-E: CMBS"
+  },
+  "ABS||ADVANCE: CMBS": {
+    "confidence": "low",
+    "feature": "ABS",
+    "level": 1,
+    "source": "llm",
+    "value": "ADVANCE: CMBS"
+  },
+  "ABS||Ab": {
+    "confidence": "low",
+    "feature": "ABS",
+    "level": 1,
+    "source": "llm",
+    "value": "Ab"
+  },
+  "ABS||Optional": {
+    "confidence": "high",
+    "feature": "ABS",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "ABS||S": {
+    "confidence": "high",
+    "feature": "ABS",
+    "level": 2,
+    "source": "llm",
+    "value": "S"
+  },
+  "ABS||Sb": {
+    "confidence": "low",
+    "feature": "ABS",
+    "level": 2,
+    "source": "llm",
+    "value": "Sb"
+  },
+  "ABS||Standard (CMBS)": {
+    "confidence": "high",
+    "feature": "ABS",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard (CMBS)"
+  },
+  "ABS||TBD": {
+    "confidence": "low",
+    "feature": "ABS",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "ABS||TECH: CMBS": {
+    "confidence": "low",
+    "feature": "ABS",
+    "level": 1,
+    "source": "llm",
+    "value": "TECH: CMBS"
+  },
+  "ADAPTIVE_CRUISE_CONTROL||A": {
+    "confidence": "low",
+    "feature": "ADAPTIVE_CRUISE_CONTROL",
+    "level": 1,
+    "source": "llm",
+    "value": "A"
+  },
+  "ADAPTIVE_CRUISE_CONTROL||Base:None TECH:Standard": {
+    "confidence": "medium",
+    "feature": "ADAPTIVE_CRUISE_CONTROL",
+    "level": 1,
+    "source": "llm",
+    "value": "Base:None TECH:Standard"
+  },
+  "ADAPTIVE_CRUISE_CONTROL||None:BASE,TECH                 Standard:ADV,,ADV-E,": {
+    "confidence": "medium",
+    "feature": "ADAPTIVE_CRUISE_CONTROL",
+    "level": 1,
+    "source": "llm",
+    "value": "None:BASE,TECH                 Standard:ADV,,ADV-E,"
+  },
+  "ADAPTIVE_CRUISE_CONTROL||None:BASE,TECH   Standard: ADV(-),ADV": {
+    "confidence": "medium",
+    "feature": "ADAPTIVE_CRUISE_CONTROL",
+    "level": 1,
+    "source": "llm",
+    "value": "None:BASE,TECH   Standard: ADV(-),ADV"
+  },
+  "ADAPTIVE_CRUISE_CONTROL||Standard": {
+    "confidence": "high",
+    "feature": "ADAPTIVE_CRUISE_CONTROL",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard"
+  },
+  "ADL||D": {
+    "confidence": "low",
+    "feature": "ADL",
+    "level": 1,
+    "source": "llm",
+    "value": "D"
+  },
+  "ADL||DX,DXA : None other : Standard": {
+    "confidence": "high",
+    "feature": "ADL",
+    "level": 1,
+    "source": "llm",
+    "value": "DX,DXA : None other : Standard"
+  },
+  "ADL||DX: None other: Standard": {
+    "confidence": "medium",
+    "feature": "ADL",
+    "level": 1,
+    "source": "llm",
+    "value": "DX: None other: Standard"
+  },
+  "ADL||Standard, None": {
+    "confidence": "medium",
+    "feature": "ADL",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard, None"
+  },
+  "ANTI_THEFT_DEVICE||Active": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Active"
+  },
+  "ANTI_THEFT_DEVICE||O": {
+    "confidence": "high",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "O"
+  },
+  "ANTI_THEFT_DEVICE||Oa": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oa"
+  },
+  "ANTI_THEFT_DEVICE||Oa/Oc": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oa/Oc"
+  },
+  "ANTI_THEFT_DEVICE||Oa/Oc/Og": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oa/Oc/Og"
+  },
+  "ANTI_THEFT_DEVICE||Oa/Og": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oa/Og"
+  },
+  "ANTI_THEFT_DEVICE||OaOh/Ob": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "OaOh/Ob"
+  },
+  "ANTI_THEFT_DEVICE||OaOh/Oc": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "OaOh/Oc"
+  },
+  "ANTI_THEFT_DEVICE||Ob": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Ob"
+  },
+  "ANTI_THEFT_DEVICE||Ob/Oc": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Ob/Oc"
+  },
+  "ANTI_THEFT_DEVICE||Ob/Oc/Oh": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Ob/Oc/Oh"
+  },
+  "ANTI_THEFT_DEVICE||Ob/Og": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Ob/Og"
+  },
+  "ANTI_THEFT_DEVICE||Ob/Oh": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Ob/Oh"
+  },
+  "ANTI_THEFT_DEVICE||Ob/Tc": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Ob/Tc"
+  },
+  "ANTI_THEFT_DEVICE||Oc": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oc"
+  },
+  "ANTI_THEFT_DEVICE||Oc/Oa": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oc/Oa"
+  },
+  "ANTI_THEFT_DEVICE||Oc/Ob": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oc/Ob"
+  },
+  "ANTI_THEFT_DEVICE||Oc/Oh": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oc/Oh"
+  },
+  "ANTI_THEFT_DEVICE||Oe": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oe"
+  },
+  "ANTI_THEFT_DEVICE||Of": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Of"
+  },
+  "ANTI_THEFT_DEVICE||Og": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Og"
+  },
+  "ANTI_THEFT_DEVICE||Oh": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Oh"
+  },
+  "ANTI_THEFT_DEVICE||Optional, (% Not fixed)": {
+    "confidence": "high",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional, (% Not fixed)"
+  },
+  "ANTI_THEFT_DEVICE||Passive": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Passive"
+  },
+  "ANTI_THEFT_DEVICE||See Comment": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "See Comment"
+  },
+  "ANTI_THEFT_DEVICE||Standard / ": {
+    "confidence": "high",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard / "
+  },
+  "ANTI_THEFT_DEVICE||Standard / None": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard / None"
+  },
+  "ANTI_THEFT_DEVICE||Standard / Optional": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard / Optional"
+  },
+  "ANTI_THEFT_DEVICE||Standard / Optional / ": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard / Optional / "
+  },
+  "ANTI_THEFT_DEVICE||Standard / Optional / None": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard / Optional / None"
+  },
+  "ANTI_THEFT_DEVICE||Standard/Optional": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard/Optional"
+  },
+  "ANTI_THEFT_DEVICE||Standard/Optional/None": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard/Optional/None"
+  },
+  "ANTI_THEFT_DEVICE||TB": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "TB"
+  },
+  "ANTI_THEFT_DEVICE||TBD": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "ANTI_THEFT_DEVICE||Ta": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Ta"
+  },
+  "ANTI_THEFT_DEVICE||Ta/Oa": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Ta/Oa"
+  },
+  "ANTI_THEFT_DEVICE||Ta/Th": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Ta/Th"
+  },
+  "ANTI_THEFT_DEVICE||Tb": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tb"
+  },
+  "ANTI_THEFT_DEVICE||Tb/Oa/Oh": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tb/Oa/Oh"
+  },
+  "ANTI_THEFT_DEVICE||Tc": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tc"
+  },
+  "ANTI_THEFT_DEVICE||Tc/Oa": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tc/Oa"
+  },
+  "ANTI_THEFT_DEVICE||Tc/Oa/Oh": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tc/Oa/Oh"
+  },
+  "ANTI_THEFT_DEVICE||Tc/Ob": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tc/Ob"
+  },
+  "ANTI_THEFT_DEVICE||Tc/Oc": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tc/Oc"
+  },
+  "ANTI_THEFT_DEVICE||Tc/Og": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tc/Og"
+  },
+  "ANTI_THEFT_DEVICE||Tc/Oh": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tc/Oh"
+  },
+  "ANTI_THEFT_DEVICE||Td": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Td"
+  },
+  "ANTI_THEFT_DEVICE||Td/Oh": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Td/Oh"
+  },
+  "ANTI_THEFT_DEVICE||Te": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Te"
+  },
+  "ANTI_THEFT_DEVICE||Tf/Oe": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tf/Oe"
+  },
+  "ANTI_THEFT_DEVICE||Tg": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Tg"
+  },
+  "ANTI_THEFT_DEVICE||Tg/Oc": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tg/Oc"
+  },
+  "ANTI_THEFT_DEVICE||Tg/Of": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Tg/Of"
+  },
+  "ANTI_THEFT_DEVICE||Th": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Th"
+  },
+  "ANTI_THEFT_DEVICE||Th/Oa": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Th/Oa"
+  },
+  "ANTI_THEFT_DEVICE||Th/Ob": {
+    "confidence": "low",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 1,
+    "source": "llm",
+    "value": "Th/Ob"
+  },
+  "ANTI_THEFT_DEVICE||Yes": {
+    "confidence": "medium",
+    "feature": "ANTI_THEFT_DEVICE",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "ARS||Not available": {
+    "confidence": "high",
+    "feature": "ARS",
+    "level": 0,
+    "source": "llm",
+    "value": "Not available"
+  },
+  "ARS||Optional": {
+    "confidence": "high",
+    "feature": "ARS",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "ARS||Optional/None": {
+    "confidence": "high",
+    "feature": "ARS",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional/None"
+  },
+  "ARS||Standard, Optional": {
+    "confidence": "medium",
+    "feature": "ARS",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard, Optional"
+  },
+  "ARS||Standard/Optional": {
+    "confidence": "medium",
+    "feature": "ARS",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard/Optional"
+  },
+  "ARS||X": {
+    "confidence": "low",
+    "feature": "ARS",
+    "level": 2,
+    "source": "llm",
+    "value": "X"
+  },
+  "ARS||Xwindow": {
+    "confidence": "low",
+    "feature": "ARS",
+    "level": 0,
+    "source": "llm",
+    "value": "Xwindow"
+  },
+  "AUTO_CRASH_NOTIFICATION||TBD": {
+    "confidence": "low",
+    "feature": "AUTO_CRASH_NOTIFICATION",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "AUTO_CRASH_NOTIFICATION||none": {
+    "confidence": "high",
+    "feature": "AUTO_CRASH_NOTIFICATION",
+    "level": 0,
+    "source": "llm",
+    "value": "none"
+  },
+  "BACKUP_CAMERA||Yes": {
+    "confidence": "medium",
+    "feature": "BACKUP_CAMERA",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "BETI||Yes": {
+    "confidence": "medium",
+    "feature": "BETI",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "BLIND_SPOT_DETECTION||Both": {
+    "confidence": "low",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 2,
+    "source": "llm",
+    "value": "Both"
+  },
+  "BLIND_SPOT_DETECTION||LTD Grade: Standard, XLE & SE Grades: Optional": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "LTD Grade: Standard, XLE & SE Grades: Optional"
+  },
+  "BLIND_SPOT_DETECTION||No": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 0,
+    "source": "llm",
+    "value": "No"
+  },
+  "BLIND_SPOT_DETECTION||None:BASE,TECH                 Standard:ADV,ADV-E": {
+    "confidence": "medium",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "None:BASE,TECH                 Standard:ADV,ADV-E"
+  },
+  "BLIND_SPOT_DETECTION||None:BASE,TECH   Standard: ADV(-),ADV": {
+    "confidence": "medium",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "None:BASE,TECH   Standard: ADV(-),ADV"
+  },
+  "BLIND_SPOT_DETECTION||Not Equipped": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 0,
+    "source": "llm",
+    "value": "Not Equipped"
+  },
+  "BLIND_SPOT_DETECTION||OPTIONAL": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "OPTIONAL"
+  },
+  "BLIND_SPOT_DETECTION||Optional": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "BLIND_SPOT_DETECTION||Optional (100%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional (100%)"
+  },
+  "BLIND_SPOT_DETECTION||Optional(40%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional(40%)"
+  },
+  "BLIND_SPOT_DETECTION||Optional, (% Not fixed)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional, (% Not fixed)"
+  },
+  "BLIND_SPOT_DETECTION||Optional-10%": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional-10%"
+  },
+  "BLIND_SPOT_DETECTION||Optional-17%": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional-17%"
+  },
+  "BLIND_SPOT_DETECTION||Optional-35%": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional-35%"
+  },
+  "BLIND_SPOT_DETECTION||Optional-49%": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional-49%"
+  },
+  "BLIND_SPOT_DETECTION||Optional-50%": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional-50%"
+  },
+  "BLIND_SPOT_DETECTION||Optional-52%": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional-52%"
+  },
+  "BLIND_SPOT_DETECTION||Optional/ Standard": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional/ Standard"
+  },
+  "BLIND_SPOT_DETECTION||SR5 None Limited Optional Platinum Standard": {
+    "confidence": "medium",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "SR5 None Limited Optional Platinum Standard"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (12%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (12%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (13%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (13%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (23%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (23%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (28%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (28%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (36%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (36%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (37%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (37%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (5%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (5%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (57%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (57%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (6%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (6%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (66%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (66%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (71%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (71%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (72%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (72%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (81%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (81%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (83%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (83%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (87%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (87%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (90%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (90%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (95%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (95%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Avail (96%)": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Side Blind Zone - Avail (96%)"
+  },
+  "BLIND_SPOT_DETECTION||Side Blind Zone - Standard": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 2,
+    "source": "llm",
+    "value": "Side Blind Zone - Standard"
+  },
+  "BLIND_SPOT_DETECTION||Standard/ None": {
+    "confidence": "medium",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard/ None"
+  },
+  "BLIND_SPOT_DETECTION||TBD": {
+    "confidence": "low",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "BLIND_SPOT_DETECTION||Touring Elite : Standard           Other : ": {
+    "confidence": "medium",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Touring Elite : Standard           Other : "
+  },
+  "BLIND_SPOT_DETECTION||Touring Elite: STD All other: N/A": {
+    "confidence": "medium",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "Touring Elite: STD All other: N/A"
+  },
+  "BLIND_SPOT_DETECTION||XLE None Touring Optional Limited Standard": {
+    "confidence": "high",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 1,
+    "source": "llm",
+    "value": "XLE None Touring Optional Limited Standard"
+  },
+  "BLIND_SPOT_DETECTION||Yes": {
+    "confidence": "medium",
+    "feature": "BLIND_SPOT_DETECTION",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "CRASH_IMMINENT_BRAKE||-": {
+    "confidence": "medium",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 0,
+    "source": "llm",
+    "value": "-"
+  },
+  "CRASH_IMMINENT_BRAKE||Both": {
+    "confidence": "low",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 2,
+    "source": "llm",
+    "value": "Both"
+  },
+  "CRASH_IMMINENT_BRAKE||NONE": {
+    "confidence": "high",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 0,
+    "source": "llm",
+    "value": "NONE"
+  },
+  "CRASH_IMMINENT_BRAKE||No": {
+    "confidence": "high",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 0,
+    "source": "llm",
+    "value": "No"
+  },
+  "CRASH_IMMINENT_BRAKE||OPTIONAL": {
+    "confidence": "high",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 1,
+    "source": "llm",
+    "value": "OPTIONAL"
+  },
+  "CRASH_IMMINENT_BRAKE||Option": {
+    "confidence": "high",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 1,
+    "source": "llm",
+    "value": "Option"
+  },
+  "CRASH_IMMINENT_BRAKE||Optional": {
+    "confidence": "high",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "CRASH_IMMINENT_BRAKE||TBD": {
+    "confidence": "low",
+    "feature": "CRASH_IMMINENT_BRAKE",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "DAY_RUN_LIGHTS|| Standard": {
+    "confidence": "high",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 2,
+    "source": "llm",
+    "value": " Standard"
+  },
+  "DAY_RUN_LIGHTS||A": {
+    "confidence": "low",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "A"
+  },
+  "DAY_RUN_LIGHTS||Fleet only": {
+    "confidence": "medium",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "Fleet only"
+  },
+  "DAY_RUN_LIGHTS||Optional - fleet only": {
+    "confidence": "high",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional - fleet only"
+  },
+  "DAY_RUN_LIGHTS||Optional- fleet only": {
+    "confidence": "high",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional- fleet only"
+  },
+  "DAY_RUN_LIGHTS||Optional?46??": {
+    "confidence": "medium",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional?46??"
+  },
+  "DAY_RUN_LIGHTS||Packaged with bi-xenon": {
+    "confidence": "medium",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "Packaged with bi-xenon"
+  },
+  "DAY_RUN_LIGHTS||Standard - MMI programmable": {
+    "confidence": "high",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard - MMI programmable"
+  },
+  "DAY_RUN_LIGHTS||Standard?High intensity discharge headlamp None???Halogen headlamp": {
+    "confidence": "low",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard?High intensity discharge headlamp None???Halogen headlamp"
+  },
+  "DAY_RUN_LIGHTS||TBD": {
+    "confidence": "low",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "DAY_RUN_LIGHTS||TTS: Standard;     TT: packaged with bi-xenon": {
+    "confidence": "medium",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "TTS: Standard;     TT: packaged with bi-xenon"
+  },
+  "DAY_RUN_LIGHTS||[Optional(23%)]": {
+    "confidence": "high",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "[Optional(23%)]"
+  },
+  "DAY_RUN_LIGHTS||[Optional(7%)]": {
+    "confidence": "high",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "[Optional(7%)]"
+  },
+  "DAY_RUN_LIGHTS||[Optional(70%)]": {
+    "confidence": "high",
+    "feature": "DAY_RUN_LIGHTS",
+    "level": 1,
+    "source": "llm",
+    "value": "[Optional(70%)]"
+  },
+  "DYNAMIC_BRAKE_SUPPORT||Both": {
+    "confidence": "low",
+    "feature": "DYNAMIC_BRAKE_SUPPORT",
+    "level": 2,
+    "source": "llm",
+    "value": "Both"
+  },
+  "DYNAMIC_BRAKE_SUPPORT||STANDARD": {
+    "confidence": "high",
+    "feature": "DYNAMIC_BRAKE_SUPPORT",
+    "level": 2,
+    "source": "llm",
+    "value": "STANDARD"
+  },
+  "DYNAMIC_BRAKE_SUPPORT||TBD": {
+    "confidence": "low",
+    "feature": "DYNAMIC_BRAKE_SUPPORT",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "DYNAMIC_BRAKE_SUPPORT||optional": {
+    "confidence": "high",
+    "feature": "DYNAMIC_BRAKE_SUPPORT",
+    "level": 1,
+    "source": "llm",
+    "value": "optional"
+  },
+  "DYNAMIC_BRAKE_SUPPORT||standard": {
+    "confidence": "high",
+    "feature": "DYNAMIC_BRAKE_SUPPORT",
+    "level": 2,
+    "source": "llm",
+    "value": "standard"
+  },
+  "FRNT_BELT_INDICATOR||SF": {
+    "confidence": "medium",
+    "feature": "FRNT_BELT_INDICATOR",
+    "level": 1,
+    "source": "llm",
+    "value": "SF"
+  },
+  "FRNT_BELT_INDICATOR||Sx": {
+    "confidence": "medium",
+    "feature": "FRNT_BELT_INDICATOR",
+    "level": 2,
+    "source": "llm",
+    "value": "Sx"
+  },
+  "FRNT_BELT_INDICATOR||YES": {
+    "confidence": "medium",
+    "feature": "FRNT_BELT_INDICATOR",
+    "level": 2,
+    "source": "llm",
+    "value": "YES"
+  },
+  "FRNT_BELT_INDICATOR||Yes": {
+    "confidence": "medium",
+    "feature": "FRNT_BELT_INDICATOR",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "FRNT_COLLISION_WARNING||-": {
+    "confidence": "medium",
+    "feature": "FRNT_COLLISION_WARNING",
+    "level": 0,
+    "source": "llm",
+    "value": "-"
+  },
+  "FRNT_COLLISION_WARNING||Both": {
+    "confidence": "low",
+    "feature": "FRNT_COLLISION_WARNING",
+    "level": 2,
+    "source": "llm",
+    "value": "Both"
+  },
+  "FRNT_COLLISION_WARNING||Not Available": {
+    "confidence": "high",
+    "feature": "FRNT_COLLISION_WARNING",
+    "level": 0,
+    "source": "llm",
+    "value": "Not Available"
+  },
+  "FRNT_COLLISION_WARNING||Standard & Opti": {
+    "confidence": "medium",
+    "feature": "FRNT_COLLISION_WARNING",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard & Opti"
+  },
+  "FRNT_COLLISION_WARNING||TBD": {
+    "confidence": "low",
+    "feature": "FRNT_COLLISION_WARNING",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "FRNT_COLLISION_WARNING||Yes": {
+    "confidence": "medium",
+    "feature": "FRNT_COLLISION_WARNING",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "HEAD_SAB||Head Protection": {
+    "confidence": "low",
+    "feature": "HEAD_SAB",
+    "level": 2,
+    "source": "llm",
+    "value": "Head Protection"
+  },
+  "HEAD_SAB||Optional": {
+    "confidence": "high",
+    "feature": "HEAD_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "HEAD_SAB||Standard": {
+    "confidence": "high",
+    "feature": "HEAD_SAB",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard"
+  },
+  "HEAD_SAB||Standard (8500lb GVWR and below)                   Optional (over 8500lb GVWR)": {
+    "confidence": "medium",
+    "feature": "HEAD_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard (8500lb GVWR and below)                   Optional (over 8500lb GVWR)"
+  },
+  "HEAD_SAB||Standard/Optional": {
+    "confidence": "high",
+    "feature": "HEAD_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard/Optional"
+  },
+  "KNEE_BOLSTERS||Not Available": {
+    "confidence": "high",
+    "feature": "KNEE_BOLSTERS",
+    "level": 0,
+    "source": "llm",
+    "value": "Not Available"
+  },
+  "KNEE_BOLSTERS||Yes": {
+    "confidence": "medium",
+    "feature": "KNEE_BOLSTERS",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "LANE_DEPARTURE_WARNING||Both": {
+    "confidence": "low",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 2,
+    "source": "llm",
+    "value": "Both"
+  },
+  "LANE_DEPARTURE_WARNING||NONE": {
+    "confidence": "high",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 0,
+    "source": "llm",
+    "value": "NONE"
+  },
+  "LANE_DEPARTURE_WARNING||No": {
+    "confidence": "high",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 0,
+    "source": "llm",
+    "value": "No"
+  },
+  "LANE_DEPARTURE_WARNING||OPTIONAL": {
+    "confidence": "high",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 1,
+    "source": "llm",
+    "value": "OPTIONAL"
+  },
+  "LANE_DEPARTURE_WARNING||Optional": {
+    "confidence": "high",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "LANE_DEPARTURE_WARNING||Stanard": {
+    "confidence": "high",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 2,
+    "source": "llm",
+    "value": "Stanard"
+  },
+  "LANE_DEPARTURE_WARNING||Standard": {
+    "confidence": "high",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard"
+  },
+  "LANE_DEPARTURE_WARNING||TBD": {
+    "confidence": "low",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 0,
+    "source": "llm",
+    "value": "TBD"
+  },
+  "LANE_DEPARTURE_WARNING||Yes": {
+    "confidence": "medium",
+    "feature": "LANE_DEPARTURE_WARNING",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "LOAD_LIMITERS||Standard": {
+    "confidence": "high",
+    "feature": "LOAD_LIMITERS",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard"
+  },
+  "PELVIS_SAB||Fr: Standard Rr: Option": {
+    "confidence": "high",
+    "feature": "PELVIS_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Fr: Standard Rr: Option"
+  },
+  "PELVIS_SAB||No": {
+    "confidence": "high",
+    "feature": "PELVIS_SAB",
+    "level": 0,
+    "source": "llm",
+    "value": "No"
+  },
+  "PELVIS_SAB||Optional": {
+    "confidence": "high",
+    "feature": "PELVIS_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "PELVIS_SAB||Seat": {
+    "confidence": "low",
+    "feature": "PELVIS_SAB",
+    "level": 2,
+    "source": "llm",
+    "value": "Seat"
+  },
+  "PELVIS_SAB||See Comment": {
+    "confidence": "low",
+    "feature": "PELVIS_SAB",
+    "level": 0,
+    "source": "llm",
+    "value": "See Comment"
+  },
+  "PELVIS_SAB||Standard/Optional": {
+    "confidence": "medium",
+    "feature": "PELVIS_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard/Optional"
+  },
+  "REAR_BELT_INDICATOR||4, 5, 6": {
+    "confidence": "low",
+    "feature": "REAR_BELT_INDICATOR",
+    "level": 1,
+    "source": "llm",
+    "value": "4, 5, 6"
+  },
+  "REAR_BELT_INDICATOR||4, 5, 6, 7, 9": {
+    "confidence": "low",
+    "feature": "REAR_BELT_INDICATOR",
+    "level": 1,
+    "source": "llm",
+    "value": "4, 5, 6, 7, 9"
+  },
+  "REAR_BELT_INDICATOR||Standard": {
+    "confidence": "high",
+    "feature": "REAR_BELT_INDICATOR",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard"
+  },
+  "REAR_BELT_INDICATOR||Yes": {
+    "confidence": "medium",
+    "feature": "REAR_BELT_INDICATOR",
+    "level": 2,
+    "source": "llm",
+    "value": "Yes"
+  },
+  "SEAT_BELT_PRETENSIONER||Dual": {
+    "confidence": "low",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 2,
+    "source": "llm",
+    "value": "Dual"
+  },
+  "SEAT_BELT_PRETENSIONER||S": {
+    "confidence": "high",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 2,
+    "source": "llm",
+    "value": "S"
+  },
+  "SEAT_BELT_PRETENSIONER||S2": {
+    "confidence": "medium",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 2,
+    "source": "llm",
+    "value": "S2"
+  },
+  "SEAT_BELT_PRETENSIONER||SF": {
+    "confidence": "low",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 2,
+    "source": "llm",
+    "value": "SF"
+  },
+  "SEAT_BELT_PRETENSIONER||SF/OR": {
+    "confidence": "high",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 1,
+    "source": "llm",
+    "value": "SF/OR"
+  },
+  "SEAT_BELT_PRETENSIONER||SF/SR": {
+    "confidence": "low",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 2,
+    "source": "llm",
+    "value": "SF/SR"
+  },
+  "SEAT_BELT_PRETENSIONER||Sd": {
+    "confidence": "medium",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 2,
+    "source": "llm",
+    "value": "Sd"
+  },
+  "SEAT_BELT_PRETENSIONER||Sx": {
+    "confidence": "low",
+    "feature": "SEAT_BELT_PRETENSIONER",
+    "level": 2,
+    "source": "llm",
+    "value": "Sx"
+  },
+  "TORSO_SAB||F = Standard": {
+    "confidence": "medium",
+    "feature": "TORSO_SAB",
+    "level": 2,
+    "source": "llm",
+    "value": "F = Standard"
+  },
+  "TORSO_SAB||F = Standard; R = Optional": {
+    "confidence": "high",
+    "feature": "TORSO_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "F = Standard; R = Optional"
+  },
+  "TORSO_SAB||F+R = Standard": {
+    "confidence": "high",
+    "feature": "TORSO_SAB",
+    "level": 2,
+    "source": "llm",
+    "value": "F+R = Standard"
+  },
+  "TORSO_SAB||F= Standard": {
+    "confidence": "high",
+    "feature": "TORSO_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "F= Standard"
+  },
+  "TORSO_SAB||F= Standard; R= Optional": {
+    "confidence": "high",
+    "feature": "TORSO_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "F= Standard; R= Optional"
+  },
+  "TORSO_SAB||Fr: Standard Rr: Option": {
+    "confidence": "high",
+    "feature": "TORSO_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Fr: Standard Rr: Option"
+  },
+  "TORSO_SAB||Standard": {
+    "confidence": "high",
+    "feature": "TORSO_SAB",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard"
+  },
+  "TORSO_SAB||Standard, optional in rear": {
+    "confidence": "medium",
+    "feature": "TORSO_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard, optional in rear"
+  },
+  "TORSO_SAB||Standard/Optional": {
+    "confidence": "medium",
+    "feature": "TORSO_SAB",
+    "level": 1,
+    "source": "llm",
+    "value": "Standard/Optional"
+  },
+  "TORSO_SAB||Torso and/or Pelvis Protection": {
+    "confidence": "low",
+    "feature": "TORSO_SAB",
+    "level": 2,
+    "source": "llm",
+    "value": "Torso and/or Pelvis Protection"
+  },
+  "UPPER_BELT_ANCHORAGE||1": {
+    "confidence": "low",
+    "feature": "UPPER_BELT_ANCHORAGE",
+    "level": 2,
+    "source": "llm",
+    "value": "1"
+  },
+  "UPPER_BELT_ANCHORAGE||1,3": {
+    "confidence": "low",
+    "feature": "UPPER_BELT_ANCHORAGE",
+    "level": 2,
+    "source": "llm",
+    "value": "1,3"
+  },
+  "UPPER_BELT_ANCHORAGE||Not available": {
+    "confidence": "high",
+    "feature": "UPPER_BELT_ANCHORAGE",
+    "level": 0,
+    "source": "llm",
+    "value": "Not available"
+  },
+  "UPPER_BELT_ANCHORAGE||Optional": {
+    "confidence": "high",
+    "feature": "UPPER_BELT_ANCHORAGE",
+    "level": 1,
+    "source": "llm",
+    "value": "Optional"
+  },
+  "UPPER_BELT_ANCHORAGE||Standard  ": {
+    "confidence": "high",
+    "feature": "UPPER_BELT_ANCHORAGE",
+    "level": 2,
+    "source": "llm",
+    "value": "Standard  "
+  }
+}

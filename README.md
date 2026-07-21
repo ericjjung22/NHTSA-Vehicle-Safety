@@ -39,7 +39,7 @@ flowchart LR
 
 ![Overall stars by vehicle type](docs/images/stars_by_vehicle_type.png)
 
-**Interactive dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/eric.jung1941/viz/NHTSAVehicleSafetyTrends/NHTSAVehicleSafetyTrends) — same two trends, filterable by vehicle type, with an equipment-score view alongside the star-rating view.
+**Interactive dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/eric.jung1941/viz/NHTSAVehicleSafetyTrendsCrashRatingsEquipmentScore/NHTSAVehicleSafetyTrendsCrashRatingsEquipmentScore) — same two trends, filterable by vehicle type, with an equipment-score view alongside the star-rating view.
 
 ## The LLM step: what it did and didn't change
 

@@ -21,13 +21,13 @@ flowchart LR
 
 ## What's in each stage
 
-- **`scripts/clean_data.py`** — reads the raw CSV, drops exact duplicates, converts sentinel zeros (e.g. `CURB_WEIGHT == 0`) to true nulls, normalizes messy categorical fields (`DRIVE_TRAIN` typos like `4x4`/`ADW`, `BODY_FRAME` casing), and splits the result into a wide `vehicles` table and a long/tidy `equipment` table (one row per vehicle × equipment feature), loaded into a local DuckDB file at `data/nhtsa.duckdb`.
-- **`scripts/equipment_rules.py`** — a keyword-based classifier that maps equipment values like `"Standard"`, `"S"`, `"Optional"` to a 0/1/2 (not present / optional / standard) scale. Resolves ~94% of the equipment values in the columns that matter for scoring, but can't handle abbreviations, percentages, or OCR-noise fragments (`"Optional?46??"`, `"Ab"`, `"S2"`).
-- **`scripts/classify_equipment.py`** — sends the values the rule matcher can't handle to Claude (batched, cached to `data/equipment_llm_cache.json` so no string is ever billed twice), using structured outputs so every response is guaranteed valid JSON. Includes a `--validate` mode that reruns the LLM on values the rule matcher *can* already handle, to measure agreement before trusting it on the rest.
-- **`scripts/build_equipment_score.py`** — combines the rule-based and LLM classifications into a per-vehicle composite `equipment_score` (mean equipment level across the scored features).
-- **`notebooks/analysis.ipynb`** — queries DuckDB directly with SQL (no re-reading or re-cleaning the CSV) for the trend charts, and includes the equipment-score-vs-crash-rating analysis below.
-- **`notebooks/modeling.ipynb`** — predicts `OVERALL_STARS` from `equipment_score`, `MODEL_YR`, and `VEHICLE_TYPE` with a linear regression and a random forest (see [Modeling](#modeling) below).
-- **`scripts/export_tableau.py`** — denormalizes the DuckDB tables into a flat CSV for the Tableau Public dashboard (Tableau Public only connects to flat files, not a database).
+- **`scripts/clean_data.py`** — cleans the raw CSV: removes duplicate rows, fixes placeholder values that were secretly standing in for missing data (e.g. a vehicle listed as weighing 0 lbs), and standardizes inconsistent category values (`DRIVE_TRAIN` had typos like `4x4` and `ADW` that both should read `AWD`). The cleaned data is split into two tables — one row per vehicle, and one row per vehicle-per-safety-feature — and loaded into a local database file (DuckDB), so every later step can query it with SQL instead of re-reading and re-cleaning the CSV each time.
+- **`scripts/equipment_rules.py`** — a simple rule-based classifier: it matches equipment values like `"Standard"` or `"S"` to a 0/1/2 scale (not present / optional / standard). This handles about 94% of values on its own, but can't make sense of abbreviations, percentages, or garbled text (`"Optional?46??"`, `"Ab"`, `"S2"`).
+- **`scripts/classify_equipment.py`** — for the values the rule-based classifier can't figure out, this sends them to Claude to classify instead. Every value is cached after its first classification so nothing is ever sent to the API twice, and Claude's answers are forced into a strict, valid format so a response is never garbled or unusable. It also has a `--validate` mode that checks the AI's accuracy against values we already know the right answer to, before trusting it on the rest — see [The LLM step](#the-llm-step-what-it-did-and-didnt-change) below.
+- **`scripts/build_equipment_score.py`** — combines the rule-based and AI classifications into one composite `equipment_score` per vehicle (the average equipment level across every feature that got scored).
+- **`notebooks/analysis.ipynb`** — analyzes the data with SQL queries run directly against the database, to build the trend charts and test whether equipment score actually tracks crash-test rating.
+- **`notebooks/modeling.ipynb`** — builds two prediction models (a linear regression and a random forest) that predict a vehicle's crash-test star rating from its equipment score, model year, and vehicle type. See [Modeling](#modeling) below.
+- **`scripts/export_tableau.py`** — exports a single flat CSV for the Tableau dashboard, since Tableau Public can only read files, not connect to a database directly.
 
 ## Key charts
 
@@ -43,11 +43,11 @@ flowchart LR
 
 ## The LLM step: what it did and didn't change
 
-Validated the LLM classifier against 40 values the rule matcher already handles: **97.5% agreement**. The one disagreement was real, not noise — the rule matcher assumed a bare `"A"` meant "standard equipment," but `"A"` shows up 422 times for ABS alone and the LLM read it as "available/optional," which the rule matcher had no way to tell apart from `"Std"`/`"S"`. That token was moved out of the rule matcher entirely so it's now handled by the LLM instead of a guess.
+Before trusting Claude's classifications, I tested it on 40 values the rule-based classifier already handles correctly, to see how often the two agreed: **97.5% of the time**. The one disagreement actually caught a real mistake in my own logic — I'd assumed a bare `"A"` meant "standard equipment," but it shows up 422 times for ABS alone, and Claude read it as "available/optional" instead. That makes more sense: the rule-based classifier had no way to tell `"A"` apart from `"Std"` or `"S"`, it was just guessing. I fixed the rule-based classifier to stop guessing on that value and let the AI handle it going forward.
 
-Across the equipment columns used for scoring, the rule matcher alone left **~6% of values (10,395 rows)** unclassified — including *all* of ABS, `SEAT_BELT_PRETENSIONER`, and `DAY_RUN_LIGHTS` values with any abbreviation or formatting quirk. The LLM step took that to 0% unresolved.
+Beyond that one fix, the rule-based classifier alone couldn't figure out about **6% of the equipment values used for scoring (10,395 rows)** — including *every* value for ABS, `SEAT_BELT_PRETENSIONER`, and `DAY_RUN_LIGHTS` that had any abbreviation or odd formatting. Adding the AI classification step brought that down to **0% unresolved**.
 
-**Honest caveat:** the LLM step barely changed the *aggregate* equipment score (mean absolute difference of ~0.014 on a 0–2 scale between the rule-only and rule+LLM composite score) — its value was in completeness and fixing specific misclassifications, not in shifting the headline number.
+**Honest caveat:** even with full coverage, the AI step barely moved the *overall* equipment score — on average, adding it changed a vehicle's score by only about 0.014 points on a 0–2 scale. Its real value wasn't shifting the headline number, it was filling in the gaps completely and fixing specific mistakes like the `"A"` example above.
 
 ## Finding
 
@@ -63,6 +63,14 @@ Pooling all years, equipment score barely correlates with `OVERALL_STARS` (r ≈
 | Random forest | 0.363 | 0.34 stars |
 
 Both are modest — as expected, given the weak/mixed correlation above. The interesting part is *why*: the linear regression's `equipment_score` coefficient is **negative** (-0.31) once `VEHICLE_TYPE` and `MODEL_YR` are held constant, which looks backwards until you notice it's confounding by vehicle segment — trucks have both lower equipment scores and lower star ratings than passenger cars, so once the model has a `VEHICLE_TYPE_TRUCK` term to absorb that segment effect, what's left in `equipment_score` behaves differently. The random forest's feature importances back this up: `MODEL_YR` alone explains the largest share of predictive power (0.38) — most of the safety improvement over time is a general trend, not equipment specifically — with `equipment_score` (0.27) and `VEHICLE_TYPE_TRUCK` (0.27) contributing roughly equal, overlapping shares. Full reasoning and next-step ideas (e.g. a segment/era fixed-effects design) are in the notebook's conclusion.
+
+## Results
+
+Putting the trend, correlation, and modeling analyses together: **crash-test safety improved substantially and consistently across every vehicle type from 2011 to 2026 — but that improvement mostly reflects the passage of time itself, not the specific equipment measured here.** `MODEL_YR` alone is the single strongest predictor of star rating in the random forest, meaning most of the safety gain is an industry-wide trend (better structural engineering, updated crash standards over the years) rather than something driven by any one equipment feature.
+
+`equipment_score` does carry real signal, but it's entangled with vehicle segment rather than acting as an independent predictor. Trucks consistently have both lower equipment scores *and* lower star ratings than passenger cars — so once a model accounts for vehicle type, equipment score's apparent relationship with safety changes, even flipping sign in the linear regression. The same pattern shows up in the correlation analysis, where equipment score's relationship with star rating flips from negative (2010–2014) to positive (2020 onward) depending on the era.
+
+**So, answering the original question directly: no — equipment doesn't cleanly track crash-test rating once you control for era.** What looks like an "equipment effect" is mostly standing in for two other things: general improvement over time, and vehicle segment. That's a more honest conclusion than a simple yes or no, and a more useful one — it points to what would actually need to be modeled (comparisons within the same segment and era) to isolate a real equipment effect, rather than claiming this analysis already found one.
 
 ## Caveats
 

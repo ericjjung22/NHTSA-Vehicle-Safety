@@ -28,6 +28,7 @@ def main():
         FROM vehicles v
         JOIN vehicle_equipment_score s USING (vehicle_id)
         WHERE v.OVERALL_STARS IS NOT NULL
+          AND v.VEHICLE_TYPE IN ('PC', 'MPV', 'TRUCK')
         ORDER BY v.MODEL_YR
     """).df()
     df.to_csv(OUT_PATH, index=False)
